@@ -34,7 +34,7 @@ def get_ipsum(vers,para):
 	b64signature = (base64.b64encode(signature).decode())
 	
 	
-	#for no just returning the signature, but need to return XML or JSON result (BuddhaIpsum)
+	#for now just returning the signature, but need to return XML or JSON result (BuddhaIpsum)
 	#at that point should incvlude param in URL for return type? xml or json?
 	return (byte_string + '\nSignature: ' + b64signature)
 
