@@ -1,6 +1,7 @@
 import json
 import bottle
 from bottle import route, run, request
+import urllib2 #for HTTPError
 import hmac
 import hashlib
 import base64
@@ -31,7 +32,7 @@ def get_ipsum(vers,para):
 	if authID == 'test':
 		sharedsecret = '1234567890'
 	else:
-		return HTTPError(500, "Server Error- Unknown AuthID")
+		return HTTPError(500, "Server Error- Unknown AuthID") 
 	
 	#if AuthVers = 1 and SRV_VERS = v1- when implemented, the AuthVers would determine how the 
 	#signature is formed, and the service version would determine how the returned data is derived and formated
