@@ -1,3 +1,3 @@
 D:
-cd /webdev.datumlogic.com/rest
+cd /webdev.datumlogic.com/RESTdev
 git pull
