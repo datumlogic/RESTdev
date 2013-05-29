@@ -5,7 +5,7 @@ import hmac
 import hashlib
 import base64
 
-# REST Signature: VERB\nURI\nACTION/SRV_VERS (vX)/parameter/AuthID=[test]&AuthType=[SHA256]&AuthVers=[1]&TimeStamp=['YYYYMMDDT24h:MM:SS' in UDT]
+# REST Signature: VERB\nHOST\nACTION/SRV_VERS (vX)/parameter/AuthID=[test]&AuthType=[SHA256]&AuthVers=[1]&TimeStamp=['YYYYMMDDT24h:MM:SS' in UDT]
 # eg- GET\nlocalhost:8081\n/ipsum/v1/3\nAuthID=test&AuthType=SHA256&AuthVers=1&TimeStamp=2013-05-27T10:50:00"
 host = ''
 
