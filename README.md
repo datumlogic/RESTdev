@@ -10,3 +10,4 @@ Python Standard Library.
 
 hmac_test.py is a simple python-only implementation of HMAC using the hmac module.
 testrestapi.py is a simple Bottle implementation of RESTful API using HMAC for authentication.
+ParagraphBuilder.py is a simple data 'model'- creates Lorum Ipsum text.
