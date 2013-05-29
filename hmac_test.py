@@ -21,3 +21,14 @@ print(base64.b64encode(dig).decode())
 #AuthType: SHA256
 #AuthVers: 1
 #TimeStamp: 2013-05-27T10:50:00
+
+
+#http://webdev.datumlogic.com:8081/ipsum/v1/3
+
+#Authorization: JrDV4pH1bw41B2kyUPRTrDa5v9/blsSHJngte+fHbJs=
+#AuthID: test
+#AuthType: SHA256
+#AuthVers: 1
+#TimeStamp: 2013-05-27T10:50:00
+
+

@@ -2,7 +2,7 @@ RESTdev
 =======
 A repro for developing Web Services written in Python, using Bottle (http://bottlepy.org/)
 
-Bottle is brilliant- if for nothing other than prototyping-
+Bottle.py- Bottle is brilliant- if for nothing other than prototyping-
 It offers request dispatching (Routes) with url parameter support, templates,
 a built-in HTTP Server and adapters for many third party WSGI/HTTP-server and
 template engines - all in a single file and with no dependencies other than the
